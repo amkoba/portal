@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Santhosh Kumar - Ayurveda and Panchakarma Center</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">🌿</span>
+        <div class="logo-text">
+          <span class="logo-name">Shivam Ayurvedalaya</span>
+          <span class="logo-tagline">ayurveda and panchakarma center</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#faq" class="nav-link">Panchakarma</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary header-btn">Book Consultation</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero" id="home">
+    <div class="hero-slider" id="heroSlider">
+      <div class="hero-slide active" style="background: linear-gradient(135deg, #2d5016 0%, #4a7c2e 50%, #6b9b3a 100%);">
+        <div class="container hero-content">
+          <span class="hero-label">Bone Joint and Spine Disease</span>
+          <h1>Regain Mobility &amp; Live Pain-Free</h1>
+          <p>Expert Ayurvedic care for Bone, Joint &amp; Spine Disorders</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Book Appointment<span class="btn-sub">(first consultation free)</span></a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #1a4a3a 0%, #2d7d5e 50%, #3a9b6e 100%);">
+        <div class="container hero-content">
+          <span class="hero-label">Skin Disease and Rashes</span>
+          <h1>Clear Skin, Confident Life</h1>
+          <p>Holistic Ayurvedic solutions for skin diseases, rashes, and chronic conditions.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Book Appointment<span class="btn-sub">(first consultation free)</span></a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #3a1a4a 0%, #5e2d7d 50%, #7a3a9b 100%);">
+        <div class="container hero-content">
+          <span class="hero-label">Paralysis Treatment</span>
+          <h1>Hope &amp; Healing for Paralysis</h1>
+          <p>Specialized Ayurvedic therapies for paralysis and neurological recovery.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Book Appointment<span class="btn-sub">(first consultation free)</span></a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #4a1a1a 0%, #7d2d2d 50%, #9b3a3a 100%);">
+        <div class="container hero-content">
+          <span class="hero-label">Infertility and Sexual Problems</span>
+          <h1>Restoring Fertility &amp; Intimacy</h1>
+          <p>Ayurvedic therapies for infertility, sexual wellness, and reproductive health.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Book Appointment<span class="btn-sub">(first consultation free)</span></a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #4a3a1a 0%, #7d5e2d 50%, #9b7a3a 100%);">
+        <div class="container hero-content">
+          <span class="hero-label">Piles Treatment</span>
+          <h1>Relief from Piles &amp; Anorectal Disorders</h1>
+          <p>Comprehensive Ayurvedic care for piles, fissures, and related conditions.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Book Appointment<span class="btn-sub">(first consultation free)</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-arrow hero-prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+      <div class="hero-dots" id="heroDots"></div>
+      <button class="hero-arrow hero-next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-img-placeholder">
+            <i class="fas fa-user-md"></i>
+            <span>Dr. Santhosh Kumar</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-label">About Our Doctor</span>
+          <h2 class="section-title">Meet Dr. Santhosh Kumar</h2>
+          <p class="about-text">A dedicated Ayurvedic physician with over 10 years of experience in providing holistic healthcare solutions. Trained under renowned Ayurvedic masters and certified by the Government of Karnataka.</p>
+          <div class="about-badges">
+            <div class="badge">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <strong>Government Certified</strong>
+                <span>Licensed Practitioner</span>
+              </div>
+            </div>
+            <div class="badge">
+              <i class="fas fa-users"></i>
+              <div>
+                <strong><span class="counter" data-target="5000">0</span>+ Patients</strong>
+                <span>Successfully Treated</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-outline">Learn More About Dr. Kumar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-subtitle">We offer a comprehensive range of Ayurvedic treatments tailored to your unique constitution and health needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-stethoscope"></i>
+          </div>
+          <h3>Personalized Consultations</h3>
+          <p>In-depth assessment to understand your unique body type (Prakriti) and imbalances (Vikriti).</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-spa"></i>
+          </div>
+          <h3>Panchakarma Therapies</h3>
+          <p>Traditional detoxification and rejuvenation therapies for deep cleansing and healing.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h3>Chronic Disease Management</h3>
+          <p>Effective Ayurvedic solutions for chronic conditions like diabetes, arthritis, and skin disorders.</p>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 2rem;">
+        <a href="#services" class="btn btn-primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Why Choose Dr. Santhosh Kumar's<br>Ayurveda and Panchakarma Center?</h2>
+        <p class="section-subtitle">Experience the difference of authentic Ayurvedic care combined with compassionate support.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3>Experienced Practitioner</h3>
+          <p>Dr. Santhosh Kumar brings over 10 years of expertise in Ayurvedic medicine.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Holistic Approach</h3>
+          <p>Treating mind, body, and spirit for comprehensive well-being.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+          <h3>Patient-Centric Care</h3>
+          <p>Personalized treatment plans designed for your unique health journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="achievements section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Our Achievements</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-number"><span class="counter" data-target="10">0</span></div>
+          <p>Years of Experience</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number"><span class="counter" data-target="5000">0</span></div>
+          <p>Happy Patients</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number"><span class="counter" data-target="50">0</span></div>
+          <p>Therapies Offered</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number"><span class="counter" data-target="95">0</span></div>
+          <p>Success Rate (%)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-subtitle">Hear inspiring stories from those who found healing and wellness with us.</p>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">
+          <i class="fas fa-quote-left"></i>
+        </div>
+        <p class="testimonial-text">"Dr. Santhosh Kumar's Ayurvedic treatments transformed my chronic digestive issues. I feel lighter, healthier, and full of energy. Highly recommend!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">PS</div>
+          <div>
+            <strong>Priya Sharma</strong>
+            <span>Raichur</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transformations -->
+  <section class="transformations section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Transformations Through Ayurveda</h2>
+        <p class="section-subtitle">Witness the remarkable changes our patients have experienced on their healing journey.</p>
+      </div>
+      <div class="transformations-grid">
+        <div class="transform-card">
+          <div class="transform-image">
+            <div class="transform-placeholder">
+              <div class="before-after">
+                <span class="tag tag-before">BEFORE</span>
+                <span class="tag tag-after">AFTER</span>
+              </div>
+            </div>
+          </div>
+          <h3>Skin Tag Removal</h3>
+          <p>"Visible improvement after Ayurvedic treatment. Non-surgical, natural healing."</p>
+        </div>
+        <div class="transform-card">
+          <div class="transform-image">
+            <div class="transform-placeholder">
+              <i class="fas fa-bone"></i>
+            </div>
+          </div>
+          <h3>Joint Pain &amp; Mobility</h3>
+          <p>"Regained flexibility and significantly reduced pain thanks to personalized therapies."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Find answers to common questions about Ayurveda and our clinic.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is Ayurveda?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ayurveda is an ancient Indian system of medicine that focuses on a holistic approach to health, balancing mind, body, and spirit through natural remedies, diet, and lifestyle.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is Ayurveda safe?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, when practiced by qualified professionals, Ayurveda is generally safe. Treatments are natural and personalized, minimizing side effects.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What can Ayurveda treat?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ayurveda can help with a wide range of conditions, including chronic diseases, digestive issues, skin disorders, stress, and overall wellness.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What happens in a first consultation?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Your first consultation involves a detailed discussion of your health history, lifestyle, and a physical examination to determine your unique constitution (Prakriti) and imbalances (Vikriti).</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer online consultations?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we offer online consultations for patients who cannot visit our clinic in person. Please contact us to schedule.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long do treatments last?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Treatment duration varies depending on the condition and individual. Dr. Kumar will provide a personalized plan during your consultation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 2rem;">
+        <a href="#contact" class="btn btn-outline">Have More Questions? Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Watch Our Clinic in Action</h2>
+        <p class="section-subtitle">Explore videos showcasing our treatments, patient testimonials, and Ayurvedic insights.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <div class="gallery-img-placeholder">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <h4>Clinic Moments</h4>
+          <p>Dr. Santhosh with a patient</p>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-img-placeholder">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <h4>Clinic Moments</h4>
+          <p>Dr. Santhosh with a patient</p>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-img-placeholder">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <h4>Clinic Moments</h4>
+          <p>Dr. Santhosh with a patient</p>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-img-placeholder">
+            <i class="fas fa-video"></i>
+          </div>
+          <h4>Agnikarma Procedure</h4>
+          <p>A demonstration of the Agnikarma therapy at our clinic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta section" id="contact">
+    <div class="container text-center">
+      <h2>Ready to Start Your Healing Journey?</h2>
+      <p>Book a consultation with Dr. Santhosh Kumar today and take the first step towards a healthier, balanced life.</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary btn-lg">Book an Appointment</a>
+        <a href="tel:+919916123691" class="btn btn-outline-light btn-lg"><i class="fas fa-phone"></i> Call Us Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-icon">🌿</span>
+            <div>
+              <strong>Shivam Ayurvedalaya</strong>
+              <span>ayurveda and panchakarma center</span>
+            </div>
+          </div>
+          <p>Authentic Ayurvedic healing with 10+ years of experience. Serving Raichur with personalized natural treatments.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Dr. Kumar</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#faq">Panchakarma</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Specialties</h4>
+          <ul>
+            <li>Piles Treatment</li>
+            <li>Skin Disorders</li>
+            <li>Infertility Care</li>
+            <li>Joint &amp; Spine Pain</li>
+            <li>Panchakarma Therapy</li>
+            <li>Detoxification</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="contact-list">
+            <li><i class="fas fa-phone"></i> +91 99161 23691</li>
+            <li><i class="fas fa-envelope"></i> shivamayurvedalaya@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Smart Point, Bus Stop, near Vasavi Nagar Rd, Vidya Nagar, Raichur, Karnataka 584101</li>
+            <li><i class="fas fa-clock"></i> Mon-Sat: 9AM-7PM</li>
+          </ul>
+          <h4 style="margin-top: 1.5rem;">Stay Updated with Ayurvedic Tips</h4>
+          <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Shivam Ayurvedalaya. All rights reserved.</p>
+        <p>Licensed Ayurvedic Practitioner | Government of Karnataka Certified</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
